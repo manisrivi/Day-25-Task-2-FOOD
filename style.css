@@ -1,0 +1,38 @@
+.zoom {
+    transition: transform .2s;
+    /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+body {
+    background-image: url(./Baground\ Image\ Body.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h5 {
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    color: rgb(250, 250, 250);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.nav {
+    margin-bottom: 80px;
+}
+
+.form-control {
+    width: 350px;
+}
